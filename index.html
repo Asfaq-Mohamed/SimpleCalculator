@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer>
+    </script>
+</head>
+<body>
+
+<body>
+    <div id="outputscreen" dir="rtl"> <textarea>   </textarea>  </div>
+    <div id="operators">
+        <button onclick="calculation =0;">C</button>
+        <button onclick="++count;calculation += count%2 ===0 ? '(' : ')'">()</button>
+        <button onclick="calculation+= '%';">%</button>
+        <button onclick="calculation+= '/';">/</button>
+    </div>
+
+<div id="numberButtons">
+    <button onclick="calculation+= 7;">7</button>
+    <button onclick="calculation+= 8;">8</button>
+    <button onclick="calculation+= 9;">9</button>
+    <button style= "color:black" onclick="calculation+='*'"">*</button>
+    <br>
+    <button onclick="calculation+= 4;">4</button>
+    <button onclick="calculation+= 5;">5</button>
+    <button onclick="calculation+= 6;">6</button>
+    <button style= "color:black" onclick="calculation+='-'">-</button>
+    <br>
+    <button onclick="calculation+= 1;">1</button>
+    <button onclick="calculation+= 2;">2</button>
+    <button onclick="calculation+= 3;">3</button>
+    <button style= "color:black" onclick="calculation+='+';">+</button>
+    </div>
+        <div id="lastrow">
+        <button>,</button>
+        <button>0</button>
+        <button>.</button>
+        <button style="background-color: rgb(1, 30, 1);color: antiquewhite;"  id="buttons">=</button>
+    </div>
+    
+</body>
+</html>
+

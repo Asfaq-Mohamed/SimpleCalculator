@@ -1,0 +1,31 @@
+#numberButtons button,
+#lastrow button{
+    font-size: medium;
+    background-color: rgb(255, 174, 210);
+    border: none;
+    color: rgb(212, 0, 0);
+    border-radius: 100px;
+    padding: 20px 25px 20px;
+    margin : 3px;
+    align-items:center;
+}
+#operators button{
+    font-size: medium;
+    background-color: rgb(255, 174, 210);
+    border: none;
+    color: rgb(0, 59, 14);
+    border-radius: 100px;
+    padding: 20px 25px 20px;
+    margin : 3px;
+    align-items:center;
+}
+outputscreen{
+    background-color: black;
+    text-align: center;
+    padding: 10px 20px;
+}
+body{
+    position: relative;
+    top: 250px;
+    left: 500px;
+}
