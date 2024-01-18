@@ -1,10 +1,9 @@
 let calculation="";
 let count =1;
-let val=document.getElementById("#outputscreen")
-let buttons=document.getElementById("#buttons");
-buttons.addEventListener("click",updateResult);
+let result=0;
+
 function updateResult(){
-    const result=eval(calculation);
-    alert(result);
-    val.innertext=result;
-    calculation =0;}
+    result=eval(calculation);
+    document.querySelector("#outputscreen").innerHTML=result;
+    calculation =0;
+}

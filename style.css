@@ -19,13 +19,21 @@
     margin : 3px;
     align-items:center;
 }
-outputscreen{
-    background-color: black;
-    text-align: center;
-    padding: 10px 20px;
+#outputscreen{
+    position: static;
+    background-color: rgb(171, 171, 171);
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    text-align: right;
+    margin-right: 990px;
+    /* margin-left: 600px; */
+    color: aliceblue;
 }
-body{
+/* body{
     position: relative;
     top: 250px;
-    left: 500px;
-}
+    left: 300px;
+   
+} */
